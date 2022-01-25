@@ -5,7 +5,7 @@ export default function Posts() {
 
   const API = 'https://jsonplaceholder.typicode.com/posts';
 
-  const fetchPost () => {
+  const fetchPost = () => {
     fetch(API)
       .then((res) => res.json())
       .then((res) => {

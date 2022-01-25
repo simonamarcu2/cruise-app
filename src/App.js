@@ -1,11 +1,12 @@
+import React from 'react';
+import Posts from './components/posts';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <h1>Cruise with me</h1>
-      </header>
+    <div className="container">
+      <Posts />
     </div>
   );
 }
