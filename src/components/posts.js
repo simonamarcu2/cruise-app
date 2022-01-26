@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 export default function Posts() {
   const [post, getPost] = useState([])
 
-  const API = 'https://jsonplaceholder.typicode.com/posts';
+  const API = 'https://jsonplaceholder.typicode.com/posts=20';
 
   const fetchPost = () => {
     fetch(API)
